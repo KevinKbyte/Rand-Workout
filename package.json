@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/KevinKbyte/Rand-Workout/issues"
   },
-  "homepage": "https://github.com/KevinKbyte/Rand-Workout#readme"
+  "homepage": "https://github.com/KevinKbyte/Rand-Workout#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
