@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- template based on https://www.youtube.com/watch?v=o_1-Kge54K4 -->
+<html lang="en" ng-app="RandWorkoutApp">
+	<head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+    <script src="app.js"></script>
+    <meta charset="UTF-8">
+		<title>Rand Workout</title>
+	</head>
+  <body>
+    <div class="container" ng-controller="WorkoutController">
+      <h1>Choose your workout day</h1>
+      <input ng-model="post.title" class="form-control" placeholder="title"/>
+      <textarea ng-model="post.body" class="form-control" placeholder="body"></textarea>
+      <button ng-click="createPost(post)" class="btn btn-primary btn-block">Post</button> 
+    </div>
+	</body>
+</html>
+
+
+
